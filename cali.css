@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav, button {
+    font-size: 1.1em !important;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+header {
+    background: url('cali.jpg');
+    background-size: cover;
+}
+
+.boxes {
+    margin-top: 100px;
+}
+
+.boxes > div {
+    background: rgba(255, 255, 255, .9);
+}
+
+.row img:not(.container .row img) {
+    height: 200px;
+}
+
+.contact {
+    background: url('cali1.jpg');
+    background-position: bottom left;
+}
+
+footer {
+    background: rgba(0, 0, 0, .9);
+}
